@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form class="login-form">
+            <div class="login-form-picture">
+                <img src="images/image_near_login.jpeg" alt="Описание изображения"> 
+            </div>
+            <div class="authorization">
+                <h2>Авторизация</h2>
+                <div class = "account-cat-picture">
+                    <img src="images/cat_account.png"alt="Описание изображения"> 
+                </div>
+                <div class="custom-field">
+                    <input class="custom-field__input" type="email" name="email" id="email" placeholder="Электронная почта">
+                    <input class="custom-field__input" type="password" name="password" id="password" placeholder="Пароль">
+                    <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+                </div>
+                <div login_buttons>
+                    <button class="button coffe">Войти</button>
+                    <a class="button lightcoffe" href="http://example.com" target="_blank">Восстановить пароль</a>
+                </div>
+                <a href="https://www.google.com/" style="color: #79553D">Нет аккаунта? Зарегестрируйтесь</a>
+            </div>
+        </form>
+    </section>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
